@@ -32,10 +32,10 @@
                     <StackLayout Padding="0,0,0,10" VerticalOptions="End">
                         <Button x:Name="getWeatherBtn" Text="Get Weather" WidthRequest="185" BorderWidth="1">
                             <Button.TextColor>
-                                <OnPlatform x:TypeArguments="Color" iOS="White" />
+                                <OnPlatform x:TypeArguments="Color" iOS="White" Android="Black" WinPhone="White" />
                             </Button.TextColor>
                             <Button.BorderColor>
-                                <OnPlatform x:TypeArguments="Color" iOS="White"  />
+                                <OnPlatform x:TypeArguments="Color" iOS="White" Android="Black" WinPhone="White" />
                             </Button.BorderColor>
                         </Button>
                     </StackLayout>
